@@ -76,7 +76,7 @@ nav{
     font-size: 50px ;
     color: white;
 }
-.bannar-details button{
+button{
     margin-top: 10px;
     padding: 10px 40px;
     font-size: 18px;
@@ -86,6 +86,110 @@ nav{
     max-width: 660px;
     max-height: 500px;
 }
+/*------------------------
+     main-Players section
+-------------------------- */
+
+.players{
+    width: 70%;
+    margin: 70px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px;
+    grid-row-gap:27px;
+
+}
+
+.player{
+    width: 300px;
+    height: 444px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    ;
+}
+.player img{
+    width: 300px;
+    height: 256px;  
+}
+
+.player h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* ----------------------
+    highlight section
+------------------------- */
+
+.watch{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:70px;
+    grid-row-gap:30px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+}
+
+.watch-details{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.for-flex{
+    width: 466px;
+    height: 309px;
+}
+
+.for-flex h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.texxt{
+    width: 300px;
+    height: 100px
+}
+.watch-details p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.watch img{
+    width: 567px;
+    height: 427px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -124,6 +228,32 @@ nav{
     .bannar-details{
         display: block;
     }
+
+    .players{
+        width: 90%;
+        margin: 47px auto;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .watch{
+        /* width: 90%;
+        margin: 0px auto; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* .watch-details{
+        display: block;
+    } */
+    .watch img{
+        max-width: 328px;
+        max-height: 248px;
+    }
+
+ 
 }
 
 
