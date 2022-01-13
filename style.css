@@ -4,7 +4,7 @@
 }
 
 .bannar{
-    background-color: tomato;
+    background-color:#2D25A0;
 }
 
 nav{
@@ -26,7 +26,7 @@ nav{
 }
 
 .navbar-user{
-    background-color: red;
+    background-color:#E02C6D;
     display: flex;
     align-items: center;
     padding: 5px 15px;
@@ -44,6 +44,10 @@ nav{
 .navbar-user img{
     width: 40px;
     height: 40px;
+}
+
+h1 , a{
+    text-transform: capitalize;
 }
 
 /* -------------------
@@ -106,7 +110,6 @@ button{
     height: 444px;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    ;
 }
 .player img{
     width: 300px;
@@ -143,7 +146,8 @@ button{
     grid-row-gap:30px;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    padding: 10px;
+    border: 2px solid #2D25A0;
 }
 .watch-details{
     padding: 95px ;
@@ -164,6 +168,7 @@ button{
 .watch img{
     width: 567px;
     height: 427px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.85);
 }
 
 
@@ -172,11 +177,35 @@ button{
     footer section design
 --------------------------- */
 
+.footer{
+    width: 80%;
+    margin:150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
 
+.footer>img{
+    width: 483.87px;
+    height: 110px;
+}
 
+.social-media{
+    margin-top:30px ;
+    margin-bottom: 20px;
+}
 
+.social-media img{
+   width: 32px;
+   height: 32px;
+}
 
-
+.copyright{
+   font-size:18px;
+   line-height: 24px;
+}
 
 
 
@@ -248,6 +277,26 @@ button{
     .watch-details{
         padding: 15px ;
     }
+
+    
+.footer{
+    width: 80%;
+    margin:150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+    .footer>img{
+        width: 264px;
+        height: 63px;
+    }
+
+
+
+
 }
 
 
