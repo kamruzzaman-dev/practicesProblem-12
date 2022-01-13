@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bannar{
+    background-color: blue;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+}
+.logo{
+    display: none;
+}
+
+.navbar-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-user{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+}
+.navbar-title a{
+    font-size: 20px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar-user p{
+    font-size: 20px;
+    color: white;
+}
+.navbar-user img{
+    width: 40px;
+    height: 40px;
+}
+
+/* -------------------
+    bannar poster
+---------------------- */
+
+.bannar-poster{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px ;
+    grid-gap: 30px;
+    padding: 15px;
+}
+
+
+.bannar-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannar-details h1{
+    font-size: 50px ;
+    color: white;
+}
+.bannar-details button{
+    margin-top: 10px;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+.bannar-poster img{
+    max-width: 660px;
+    max-height: 500px;
+}
+
+
+
+
+@media only screen and (max-width:500px) {
+    .logo{
+        display: block;
+    }
+    .navbar-title{
+        display: none;
+    }
+    .logo:hover nav>.navbar-title{
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        margin-top: 135px;
+    }
+    .navbar-title a{
+        padding: 10px 20px;
+        color: black;
+    }
+
+
+    .bannar-poster{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 5px ;
+    }
+
+    .bannar-poster img{
+        max-width: 390px;
+        max-height: 290px;
+    }
+
+    .bannar-details{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
