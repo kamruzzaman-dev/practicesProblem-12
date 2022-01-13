@@ -143,37 +143,24 @@ button{
     grid-row-gap:30px;
     justify-content: center;
     align-items: center;
-    height: 700px;
-
+    border: 1px solid black;
 }
-
 .watch-details{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    padding: 95px ;
 }
-
-.for-flex{
-    width: 466px;
-    height: 309px;
-}
-
-.for-flex h1{
-    font-family: Poppins;
+.watch-details h1{
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
 }
 
-.texxt{
-    width: 300px;
-    height: 100px
-}
 .watch-details p{
-    margin-top: 8px;
-    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 14px;
 }
+
 .watch img{
     width: 567px;
     height: 427px;
@@ -181,6 +168,9 @@ button{
 
 
 
+/* ------------------------
+    footer section design
+--------------------------- */
 
 
 
@@ -238,22 +228,26 @@ button{
     }
 
 
-
     .watch{
-        /* width: 90%;
-        margin: 0px auto; */
+        width: 80%;
+        margin: 0px auto;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-    /* .watch-details{
-        display: block;
-    } */
-    .watch img{
-        max-width: 328px;
-        max-height: 248px;
+        grid-column-gap:70px;
+        grid-row-gap:30px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
     }
 
- 
+    .watch img{
+        width: 308px;
+        height: 230px;
+    }
+
+    .watch-details{
+        padding: 15px ;
+    }
 }
 
 
