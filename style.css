@@ -27,6 +27,10 @@ nav{
     justify-content: space-around;
 }
 
+.navbar-title a:hover{
+    color: #E02C6D;
+}
+
 .navbar-user{
     background-color:#E02C6D;
     display: flex;
@@ -90,6 +94,7 @@ button{
     font-size: 16px;
     font-weight: 500;
     border-radius: 5px;
+    cursor: pointer;
 }
 button:hover{
     background-color: white;
@@ -158,7 +163,6 @@ button:hover{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: 2px solid #2D25A0;
 }
 .watch-details{
     padding: 95px ;
